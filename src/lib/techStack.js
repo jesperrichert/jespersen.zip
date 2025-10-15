@@ -162,9 +162,9 @@ export const techStack = [
     color: "#02303A"
   },
   {
-    name: "Discord.js",
-    iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg",
-    link: "https://discord.js.org",
+    name: "Discord",
+    iconUrl: "https://skillicons.dev/icons?i=discord",
+    link: "https://discord.com",
     color: "#7289da"
   },
   {

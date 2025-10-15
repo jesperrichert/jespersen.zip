@@ -7,7 +7,6 @@
   let techStackData = techStack;
   let repos: any[] = [];
   let organizations: any[] = [];
-  let languageStats: Record<string, number> = {};
   let loading = true;
 
   const langColors: Record<string, string> = {
@@ -54,15 +53,6 @@
     default: "#7289da",
   };
 
-  $: if (!loading && repos.length > 0) {
-    languageStats = {};
-    for (const repo of repos) {
-      if (repo.language) {
-        languageStats[repo.language] = (languageStats[repo.language] || 0) + 1;
-      }
-    }
-  }
-
   // Pagination
   let currentPage = 1;
   const itemsPerPage = 6;
@@ -99,9 +89,7 @@
       )
       .reverse();
 
-    const seen = new Set();
     organizations = data.orgResult;
-
     loading = false;
   });
 </script>
