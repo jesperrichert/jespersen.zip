@@ -452,6 +452,7 @@
       </a>
     {/each}
   </div>
+  <p>And a bit more :D</p>
 </section>
 
 <section class="section modern-section" id="projects">
