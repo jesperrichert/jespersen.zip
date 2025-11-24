@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+body {
+  background-image: url("https://cdn.xyzhub.link/u/hPNd3Q.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
