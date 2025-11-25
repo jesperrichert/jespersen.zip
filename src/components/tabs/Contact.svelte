@@ -23,12 +23,23 @@
   }
 </script>
 
-<div>
+<div class="overflow-hidden">
   <div class="flex min-h-screen justify-center items-center z-100">
-    <span
+    <div
       class="text-4xl font-extrabold mt-40 min-h-screen flex justify-center absolute"
-      >Let't Talk</span
     >
+      <div class="min-h-screen flex flex-col items-center">
+        <p class="flex justify-center flex-col">Let't Talk</p>
+        <span
+          class="mb-8 lg:mb-16 font-light text-center text-gray-500 text-xs"
+        >
+          👀 What you are here? <br />
+          Nice to see you. Please write a message with your Request, Question or
+          something else.
+        </span>
+      </div>
+    </div>
+
     <form on:submit={(e) => sendMail()} class="mx-auto mt-16 max-w-xl sm:mt-20">
       <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
         <div>

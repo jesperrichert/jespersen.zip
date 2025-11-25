@@ -1,14 +1,18 @@
-<div class="flex items-center justify-center">
+<script lang="ts">
+  export let { openTab } = {};
+</script>
+
+<div class="flex items-center justify-center overflow-hidden">
   <div class="mt-96"></div>
   <div>
     <div class="inline-flex justify-between items-center mt-40">
       <span class="animate-bounce mr-2"> 👋 </span>
       <h1 class="text-2xl font-semibold">Hey and welcome!</h1>
     </div>
-    <span> While writing this i think hwo i can optimize this!</span>
+    <span> While writing this, I think how can I optimize it!</span>
     <p>
-      Any ways.... You are welcome. I do some stuff in Minecraft, Discord and
-      software development.
+      Any ways.... You are welcome. I do some stuff in Minecraft, Discord, but
+      also software development, etc..
       <br />
       I'm a german Full Stack Developer. Speak in various languages.
       <br />
@@ -33,6 +37,17 @@
       <a class="underline text-lime-400" href="https://github.com/xyzjesper"
         >read.me</a
       >...
+      <br />
+      You need help? Want to talk or anything else. Please contact me on
+      <a class="text-[#7289da] underline" href="https://discord.gg/PHJnYbz57v"
+        >Discord</a
+      >
+      or via
+      <a
+        class="underline text-zinc-400"
+        onclick={() => openTab("Contact")}
+        href="mailto:hey@xyzjesper.dev">Email</a
+      >
     </p>
   </div>
 </div>

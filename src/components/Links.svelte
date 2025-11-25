@@ -2,9 +2,13 @@
   import Discord from "./icons/Discord.svelte";
   import GitHub from "./icons/GitHub.svelte";
   import Mail from "./icons/Mail.svelte";
+  import Matrix from "./icons/Matrix.svelte";
   import Modrinth from "./icons/Modrinth.svelte";
   import Twitch from "./icons/Twitch.svelte";
+  import Twitter from "./icons/Twitter.svelte";
   import Youtube from "./icons/Youtube.svelte";
+
+  export let { openTab } = {};
 </script>
 
 <div class="flex items-center min-h-screen ml-4">
@@ -50,7 +54,27 @@
         <Twitch />
         <span class="ml-3">Twitch</span>
       </a>
-      <a href="#contact" class="inline-flex justify-between items-center p-1">
+      <a
+        href="https://matrix.to/#/@xyzjesper:matrix.org"
+        target="_blank"
+        class="inline-flex justify-between items-center p-1"
+      >
+        <Matrix />
+        <span class="ml-3">Matrix</span>
+      </a>
+       <a
+        href="https://x.com/xyzjesper"
+        target="_blank"
+        class="inline-flex justify-between items-center p-1"
+      >
+        <Twitter />
+        <span class="ml-3">Twitter</span>
+      </a>
+      <a
+        onclick={() => openTab("Contact")}
+        href="#contact"
+        class="inline-flex justify-between items-center p-1"
+      >
         <Mail />
         <span class="ml-3">Contact</span>
       </a>

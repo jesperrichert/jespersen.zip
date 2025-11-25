@@ -3,5 +3,7 @@
 body {
   background-image: url("https://cdn.xyzhub.link/u/hPNd3Q.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-size: 15%;
 }
