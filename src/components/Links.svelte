@@ -11,8 +11,8 @@
   export let { openTab } = {};
 </script>
 
-<div class="flex items-center min-h-screen ml-4">
-  <div class="left-0 fixed ml-7 bottom-0 mb-7">
+<div class="flex items-center min-h-screen ml-4 text-zinc-800">
+  <div class="left-0 fixed ml-7 bottom-0 mb-7 bg-white/35 rounded-2xl">
     <div class="flex flex-col border-4 p-6 rounded-2xl">
       <a
         href="https://github.com/xyzjesper"
@@ -62,7 +62,7 @@
         <Matrix />
         <span class="ml-3">Matrix</span>
       </a>
-       <a
+      <a
         href="https://x.com/xyzjesper"
         target="_blank"
         class="inline-flex justify-between items-center p-1"

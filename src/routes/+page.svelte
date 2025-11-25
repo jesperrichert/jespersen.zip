@@ -22,7 +22,7 @@
           on:click={() => (value = option)}
           data-state={option === value ? "active" : "inactive"}
           class="{option === value
-            ? 'bg-white text-zinc-800'
+            ? 'bg-white/35 text-zinc-800'
             : 'bg-transparent'} w-40 h-10 cursor-pointer ring-offset-background focus-visible:ring-ring inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium capitalize transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
           >{option}</button
         >
