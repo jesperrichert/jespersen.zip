@@ -31,13 +31,13 @@
     {
       name: "danicoo",
       description: "Video Cutter for WindowsArea, Riftzone....",
-      icon: "https://cdn.discordapp.com/avatars/834107020163940393/e2bc6d36c07138770e040c8340dbec68.webp?size=1024",
+      icon: "https://cdn.xyzhub.link/u/YYmGCC.webp",
       link: "https://danicoo.de",
     },
     {
       name: "IntraceX",
       description: "Prepaid Server Hosting in Germany",
-      icon: "https://cdn.discordapp.com/icons/1322577214302326834/64258b9b14613ddc169b65e233ebf3a6.png?size=512",
+      icon: "https://cdn.xyzhub.link/u/wGCczz.png",
       link: "https://IntraceX.de",
     },
   ];
@@ -49,7 +49,7 @@
     <div class="justify-center grid grid-flow-col grid-rows-2 gap-4">
       {#each teams as team}
         <div
-          class="block bg-white/35 text-zinc-800 p-6 border-4 rounded-2xl rounded-base shadow-xs"
+          class="block bg-white/50 text-zinc-800 p-6 border-4 rounded-2xl rounded-base shadow-xs"
         >
           <div
             class="h-auto bg-neutral-primary-soft block max-w-md p-6 rounded-base"
@@ -96,7 +96,7 @@
     <div class="justify-center grid grid-flow-col grid-cols-2 gap-4">
       {#each clients as client}
         <div
-          class="block bg-white/35 text-zinc-800 p-6 border-4 rounded-2xl rounded-base shadow-xs"
+          class="block bg-white/50 text-zinc-800 p-6 border-4 rounded-2xl rounded-base shadow-xs"
         >
           <div
             class="h-auto block max-w-md p-6 rounded-base shadow-xs items-center justify-center"

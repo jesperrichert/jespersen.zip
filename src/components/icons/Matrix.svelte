@@ -2,7 +2,7 @@
   fill="#000000"
   width="20"
   height="20"
-  class="text-white bg-white/35"
+  class="text-white bg-white/50"
   viewBox="0 0 32 32"
   xmlns="http://www.w3.org/2000/svg"
 >

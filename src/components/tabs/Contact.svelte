@@ -23,9 +23,9 @@
   }
 </script>
 
-<div class="flex items-center justify-center min-h-screen">
+<div class="flex items-center justify-center min-h-screbg-white/50en">
   <div
-    class=" bg-white/35 text-zinc-900 p-6 border-4 rounded-2xl rounded-base shadow-xs"
+    class=" bg-white/50 text-zinc-900 p-6 border-4 rounded-2xl rounded-base shadow-xs"
   >
     <div class="flex min-h-screen justify-center items-center z-100">
       <div

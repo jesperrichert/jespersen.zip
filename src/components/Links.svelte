@@ -12,7 +12,7 @@
 </script>
 
 <div class="flex items-center min-h-screen ml-4 text-zinc-800">
-  <div class="left-0 fixed ml-7 bottom-0 mb-7 bg-white/35 rounded-2xl">
+  <div class="left-0 fixed ml-7 bottom-0 mb-7 bg-white/50 rounded-2xl">
     <div class="flex flex-col border-4 p-6 rounded-2xl">
       <a
         href="https://github.com/xyzjesper"

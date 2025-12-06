@@ -5,7 +5,7 @@
 <div class="flex items-center justify-center overflow-hidden mt-40">
   <div>
     <div
-      class="block bg-white/35 text-zinc-800 p-6 border-4 rounded-2xl rounded-base shadow-xs"
+      class="block bg-white/50 text-zinc-800 p-6 border-4 rounded-2xl rounded-base shadow-xs"
     >
       <div class="inline-flex justify-between items-center">
         <span class="animate-bounce mr-2"> 👋 </span>
