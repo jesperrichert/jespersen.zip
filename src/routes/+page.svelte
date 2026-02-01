@@ -1,5 +1,4 @@
 <script>
-    import Contact from "../components/tabs/Contact.svelte";
     import Links from "../components/Links.svelte";
     import Home from "../components/tabs/Home.svelte";
     import Tools from "../components/tabs/Tools.svelte";
@@ -21,10 +20,6 @@
             name: "work"
         },
         {
-            icon: "https://cdn.xyzhub.link/u/dW2bH0.png",
-            name: "contact"
-        },
-        {
             icon: "https://cdn.xyzhub.link/u/HcP57Q.png",
             name: "tools"
         }
@@ -33,11 +28,7 @@
 </script>
 
 <div>
-    {#if value === "contact"}
-        <section>
-            <Contact></Contact>
-        </section>
-    {:else if value === "home"}
+    {#if value === "home"}
         <section>
             <Home openTab={(tab) => (value = tab)}></Home>
         </section>

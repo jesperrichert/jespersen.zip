@@ -20,7 +20,7 @@
     <div class="justify-center grid grid-flow-col grid-rows-3 gap-4">
       {#each github.pinned as pin}
         <div
-          class="block bg-white/50 text-zinc-800 p-6 border-4 rounded-2xl rounded-base shadow-xs"
+                class="block bg-white/20 text-white p-6 border-4 rounded-2xl rounded-base shadow-xs"
         >
           <div class="block max-w-sm p-6 rounded-base shadow-xs">
             <div>

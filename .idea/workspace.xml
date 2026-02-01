@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="fix: correct CMD syntax in Dockerfile" />
+    <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Links.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/Contact.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Home.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bg.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +32,10 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/xyzjesper/xyzjesper.dev&quot;,
-    &quot;accountId&quot;: &quot;c19b4fd3-0a6b-4d0d-8e0c-9e4405fc31f7&quot;
+    &quot;accountId&quot;: &quot;602da3ee-3a75-4516-a595-26a8f615717a&quot;
   }
 }</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -38,15 +49,17 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new-svelte&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\jespe\\Documents\\GitHub\\xyzjesper.dev\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/xyzjesper/Dokumente/GitHub/xyzjesper.dev/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -76,6 +89,8 @@
       <workItem from="1748598063284" duration="21279000" />
       <workItem from="1748629933727" duration="18167000" />
       <workItem from="1748660087713" duration="4589000" />
+      <workItem from="1765019379885" duration="5238000" />
+      <workItem from="1769979750620" duration="4277000" />
     </task>
     <task id="LOCAL-00001" summary="initialize Svelte project with basic configuration and structure">
       <option name="closed" value="true" />
@@ -165,12 +180,22 @@
       <option name="project" value="LOCAL" />
       <updated>1748664100816</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updates for ui/ux... (ToDo: mobile)">
+      <option name="closed" value="true" />
+      <created>1765024609038</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765024609038</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -183,6 +208,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initialize Svelte project with basic configuration and structure" />
     <MESSAGE value="add layout and page components with GitHub organization data and tech stack integration" />
     <MESSAGE value="add GitHub Actions workflow and Docker Compose configuration for web builder" />
@@ -191,6 +217,25 @@
     <MESSAGE value="refactor: remove unused styles and clean up layout in +page.svelte" />
     <MESSAGE value="add GitHub authentication token to Dockerfile" />
     <MESSAGE value="fix: correct CMD syntax in Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: correct CMD syntax in Dockerfile" />
+    <MESSAGE value="updates for ui/ux... (ToDo: mobile)" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates for ui/ux... (ToDo: mobile)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
