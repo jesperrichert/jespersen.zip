@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Moonlight Panel",
+    "description": "The next generation hosting panel.",
+    "icon": "https://github.com/Moonlight-Panel.png",
+    "link": "https://github.com/Moonlight-Panel"
+  },
+  {
+    "name": "xyzOrg",
+    "description": "Open Source. Software & Solutions",
+    "icon": "https://github.com/xyzspace-dev.png",
+    "link": "https://github.com/xyzspace-dev"
+  },
+  {
+    "name": "Crystopia",
+    "description": "Open Source. Free and Unique Minecraft Network.",
+    "icon": "https://github.com/Crystopia.png",
+    "link": "https://github.com/DisBotDevelopment"
+  },
+  {
+    "name": "DisBot",
+    "description": "Public Discord Bot. Open Source. Free and Customizable!",
+    "icon": "https://github.com/DisBotDevelopment.png",
+    "link": "https://github.com/DisBotDevelopment"
+  }
+]
