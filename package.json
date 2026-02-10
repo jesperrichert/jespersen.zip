@@ -12,10 +12,12 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
+		"@internationalized/date": "^3.10.0",
 		"@lucide/svelte": "^0.563.1",
 		"@sveltejs/adapter-auto": "^6.0.1",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"bits-ui": "^2.14.4",
 		"clsx": "^2.1.1",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",

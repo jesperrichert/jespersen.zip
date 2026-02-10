@@ -23,7 +23,7 @@ export type NavBar = NavItem[];
 export type Link = {
   name: string;
   link: string;
-  icon: any;
+  icon: string;
   target: string;
 };
 

@@ -17,7 +17,7 @@
 <div>
   <section class="flex flex-col items-center min-h-screen">
     <h1 class="text-4xl p-10 ml-5 font-extrabold">Project Showcase</h1>
-    <div class="justify-center grid grid-flow-col grid-rows-3 gap-4">
+    <div class="justify-center grid lg:grid-flow-col md:grid-flow-row lg:grid-rows-3 md:grid-rows-1 gap-4">
       {#each github.pinned as pin}
         <div
                 class="block bg-white/20 text-white p-6 border-4 rounded-2xl rounded-base shadow-xs"
