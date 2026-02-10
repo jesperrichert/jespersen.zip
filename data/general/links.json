@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GitHub",
+    "link": "https://github.com/xyzjesper",
+    "icon": "github",
+    "target": "_blank"
+  },
+  {
+    "name": "Twitter/X",
+    "link": "https://x.com/xyzjesper",
+    "icon": "twitter",
+    "target": "_blank"
+  },
+  {
+    "name": "Discord",
+    "link": "https://discord.com/users/850470027026759690",
+    "icon": "discord",
+    "target": "_blank"
+  },
+  {
+    "name": "Modrinth",
+    "link": "https://modrinth.com/user/xyzjesper",
+    "icon": "modrinth",
+    "target": "_blank"
+  },
+  {
+    "name": "Youtube",
+    "link": "https://www.youtube.com/@xyzjesper",
+    "icon": "youtube",
+    "target": "_blank"
+  },
+  {
+    "name": "Twitch",
+    "link": "https://twitch.tv/xyzjesper",
+    "icon": "twitch",
+    "target": "_blank"
+  },
+  {
+    "name": "Matrix",
+    "link": "https://matrix.to/#/@xyzjesper:matrix.org",
+    "icon": "matrix",
+    "target": "_blank"
+  },
+  {
+    "name": "Email",
+    "link": "mailto:hey@xyzjesper.dev",
+    "icon": "mail",
+    "target": "_blank"
+  },
+]
