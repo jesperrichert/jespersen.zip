@@ -1,52 +1,31 @@
-<script>
+<script lang="ts"> 
     import Link from "../icons/Link.svelte";
+    import {onMount} from "svelte";
+    import {Fetcher} from "$lib/data/Fetcher.ts";
+    import type {Clients, Teams} from "$lib/data/types.ts";
 
-    export let teams = [
-        {
-            name: "DisBot",
-            description: "Public Discord Bot. Open Source. Free and Customizable!",
-            icon: "https://cdn.xyzhub.link/u/ciRHKo.png",
-            link: "https://github.com/DisBotDevelopment",
-        },
-        {
-            name: "Crystopia",
-            description: "Open Source. Free abd Unique Minecraft Network.",
-            icon: "https://cdn.xyzhub.link/u/0cM2JX.png",
-            link: "https://github.com/Crystopia",
-        },
-        {
-            name: "Moonlight Panel",
-            description: "The next generation hosting panel.",
-            icon: "https://cdn.xyzhub.link/u/9jvhBv.png",
-            link: "https://github.com/Moonlight-Panel",
-        },
-        {
-            name: "xyzOrg",
-            description: "Open Source. Software & Solutions",
-            icon: "https://github.com/xyzspace-dev.png",
-            link: "https://github.com/xyzspace-dev",
-        },
-    ];
-    export let clients = [
-        {
-            name: "danicoo",
-            description: "Video Cutter for WindowsArea, Riftzone....",
-            icon: "https://cdn.xyzhub.link/u/YYmGCC.webp",
-            link: "https://danicoo.de",
-        },
-        {
-            name: "IntraceX",
-            description: "Prepaid Server Hosting in Germany",
-            icon: "https://cdn.xyzhub.link/u/wGCczz.png",
-            link: "https://IntraceX.de",
-        },
-    ];
+
+    let clients: Teams;
+    onMount(async () => {
+        clients = await Fetcher.fetchJSONFromSource<Teams>(
+            "https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/general/clients.json",
+                {},
+        );
+    });
+
+    let teams: Clients;
+    onMount(async () => {
+        teams = await Fetcher.fetchJSONFromSource<Clients>(
+            "https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/general/teams.json",
+                {},
+        );
+    });
 </script>
 
 <div>
     <section class="flex flex-col items-center min-h-screen">
         <h1 class="text-4xl p-10 ml-5 font-extrabold">Teams</h1>
-        <div class="justify-center grid lg:grid-flow-col md:grid-flow-row lg:grid-rows-3 md:grid-rows-1 gap-4">
+        <div class="justify-center grid lg:grid-flow-col md:grid-flow-row lg:grid-rows-2 md:grid-rows-1 gap-4">
             {#each teams as team}
                 <div
                         class="block bg-white/20 text-white p-6 border-4 rounded-2xl rounded-base shadow-xs"
@@ -93,7 +72,7 @@
     <section class="flex flex-col items-center min-h-screen">
         <h1 class="text-4xl p-10 ml-2 font-extrabold">Clients</h1>
 
-        <div class="justify-center grid lg:grid-flow-col md:grid-flow-row lg:grid-rows-3 md:grid-rows-1 gap-4">
+        <div class="justify-center grid lg:grid-flow-col md:grid-flow-row lg:grid-rows-2 md:grid-rows-1 gap-4">
             {#each clients as client}
                 <div
                         class="block bg-white/20 text-white p-6 border-4 rounded-2xl rounded-base shadow-xs"

@@ -5,12 +5,16 @@ export type Client = {
   link: string;
 };
 
+export type Clients = Client[]
+
 export type Team = {
   name: string;
   description: string;
   icon: string;
   link: string;
 };
+
+export type Teams = Team[]
 
 export type NavItem = {
   icon: string;

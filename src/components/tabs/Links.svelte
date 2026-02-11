@@ -13,24 +13,34 @@
             {},
         );
     });
+
+    const positions = {
+        1: "right-1",
+        2: "right-10",
+        3: "right-20",
+        4: "left-1",
+        5: "left-10",
+        6: "left-20",
+    }
+
+    const position = () => positions[Math.floor(Math.random() * (6 - 1 + 1) + 1)] as string
+
 </script>
 
-<div class="flex justify-center items-center min-h-screen ml-4 text-zinc-800">
-    <div
-            class="ml-7 bottom-0 mb-7 bg-white/20 text-white rounded-2xl"
-    >
-        <Card class="flex flex-col border-4 p-2 w-56 grid-cols-1 rounded-2xl">
-            <CardHeader>
-                <CardTitle></CardTitle>
-                <CardDescription></CardDescription>
-            </CardHeader>
-            <CardContent>
-                {#each links as link}
-                    <a
-                            href={link.link}
-                            target={link.target}
-                            class="inline-flex justify-between items-center p-1"
-                    >
+<div class="flex justify-center items-center ml-4 text-zinc-800">
+    <Card class="bg-transparent border-0 text-white shadow-none grid grid-flow-col grid-rows-1 rounded-2xl">
+        <CardHeader>
+            <CardTitle></CardTitle>
+            <CardDescription></CardDescription>
+        </CardHeader>
+        <CardContent class="inline-flex justify-center items-center flex-col">
+            {#each links as link}
+                <a
+                        href={link.link}
+                        target={link.target}
+                        class="justify-between items-center inline-flex mt-5 relative {position()} inline-flex"
+                >
+                    <div class="border-2 p-2 justify-between items-center inline-flex rounded-2xl">
                         {#if link.icon.startsWith("link:")}
                             <img width="25" height="25" alt="ICON" src="{icon(link.icon)}"/>
                         {:else}
@@ -38,11 +48,11 @@
                         {/if}
 
                         <p class="ml-3 text-right flex">{link.name}</p>
-                    </a>
+                    </div>
+                </a>
 
-                {/each}
-            </CardContent>
-            <CardFooter></CardFooter>
-        </Card>
-    </div>
+            {/each}
+        </CardContent>
+        <CardFooter></CardFooter>
+    </Card>
 </div>
