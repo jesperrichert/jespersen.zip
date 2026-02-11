@@ -15,9 +15,9 @@
     });
 </script>
 
-<div class="flex items-center min-h-screen ml-4 text-zinc-800">
+<div class="flex justify-center items-center min-h-screen ml-4 text-zinc-800">
     <div
-            class="left-0 fixed ml-7 bottom-0 mb-7 bg-white/20 text-white rounded-2xl"
+            class="ml-7 bottom-0 mb-7 bg-white/20 text-white rounded-2xl"
     >
         <Card class="flex flex-col border-4 p-2 w-56 grid-cols-1 rounded-2xl">
             <CardHeader>

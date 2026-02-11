@@ -2,7 +2,7 @@
   import Fork from "../icons/Fork.svelte";
   import Link from "../icons/Link.svelte";
   import Star from "../icons/Star.svelte";
-  import Links from "../Links.svelte";
+  import Links from "./Links.svelte";
 
   let github = {};
 
