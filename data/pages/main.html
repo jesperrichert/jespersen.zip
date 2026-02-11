@@ -191,17 +191,14 @@
         function handleSubmit(event) {
             event.preventDefault();
             
-            // Formular-Daten sammeln
             const formData = new FormData(event.target);
             const data = Object.fromEntries(formData);
             
             console.log('Formular-Daten:', data);
             
-            // Success-Message anzeigen
             const successMessage = document.getElementById('successMessage');
             successMessage.style.display = 'block';
             
-            // Formular zurücksetzen
             setTimeout(() => {
                 event.target.reset();
                 successMessage.style.display = 'none';
@@ -210,3 +207,4 @@
     </script>
 </body>
 </html>
+
