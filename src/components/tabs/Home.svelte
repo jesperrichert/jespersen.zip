@@ -18,7 +18,7 @@
 
 <div class="flex items-center justify-center mt-40">
   <div
-          class="block bg-white/20 text-white p-6 border-4 rounded-2xl shadow-xs"
+          class="block bg-background text-white p-6 border-4 rounded-2xl shadow-xs"
   >
     <div class="inline-flex justimax-w-fy-between items-center gap-2 mb-3">
       <span class="animate-bounce">👋</span>

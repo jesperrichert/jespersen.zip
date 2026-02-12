@@ -1,21 +1,41 @@
 <script lang="ts">
+    import "./pico.min.css"
     import {onMount} from "svelte";
     import {Fetcher} from "$lib/data/Fetcher.ts";
     import {marked} from "marked";
 
     let page: string;
     onMount(async () => {
-        const data = await Fetcher.fetchStringFromSource(
+        let pageData = await Fetcher.fetchStringFromSource(
             `https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.mdx`,
             {},
         )
-        page = await marked(data)
-    });
+
+        if (!pageData) {
+            pageData = await Fetcher.fetchStringFromSource(
+                `https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.html`,
+                {},
+            )
+            page = pageData
+        } else {
+            page = await marked(pageData)
+        }
+    })
 </script>
 
-<div>
-    {@html page}
+<div data-theme="dark" class="h-screen flex justify-between p-5">
+    <div class="container text-shadow-stone-800">
+        {@html page}
+    </div>
 </div>
 
 <style>
+
+    :root {
+        --pico-border-radius: 2rem;
+        --pico-font-family: Pacifico, cursive;
+        --pico-typography-spacing-vertical: 1.5rem;
+        --pico-form-element-spacing-vertical: 1rem;
+        --pico-form-element-spacing-horizontal: 1.25rem;
+    }
 </style>

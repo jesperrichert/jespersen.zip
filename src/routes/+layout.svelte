@@ -2,4 +2,7 @@
     let {children} = $props();
     import "../global.css";
 </script>
-{@render children()}
+
+<div>
+    {@render children()}
+</div>

@@ -11,12 +11,15 @@ export class Fetcher {
     public static async fetchStringFromSource(
         source: string,
         params: {},
-    ): Promise<string> {
+    ): Promise<string | null> {
         try {
             const req = await fetch(source, params);
+            if (req.status != 200) {
+                return null
+            }
             return await req.text()
         } catch (e) {
-            return e as string
+            return null
         }
     }
 }

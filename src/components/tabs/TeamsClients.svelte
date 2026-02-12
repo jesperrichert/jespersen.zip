@@ -1,4 +1,4 @@
-<script lang="ts"> 
+<script lang="ts">
     import Link from "../icons/Link.svelte";
     import {onMount} from "svelte";
     import {Fetcher} from "$lib/data/Fetcher.ts";
@@ -9,7 +9,7 @@
     onMount(async () => {
         clients = await Fetcher.fetchJSONFromSource<Teams>(
             "https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/general/clients.json",
-                {},
+            {},
         );
     });
 
@@ -17,7 +17,7 @@
     onMount(async () => {
         teams = await Fetcher.fetchJSONFromSource<Clients>(
             "https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/general/teams.json",
-                {},
+            {},
         );
     });
 </script>
@@ -28,7 +28,7 @@
         <div class="justify-center grid lg:grid-flow-col md:grid-flow-row lg:grid-rows-2 md:grid-rows-1 gap-4">
             {#each teams as team}
                 <div
-                        class="block bg-white/20 text-white p-6 border-4 rounded-2xl rounded-base shadow-xs"
+                        class="block bg-background text-white p-6 border-4 rounded-2xl rounded-base shadow-xs"
                 >
                     <div
                             class="h-auto bg-neutral-primary-soft block max-w-md p-6 rounded-base"
@@ -75,7 +75,7 @@
         <div class="justify-center grid lg:grid-flow-col md:grid-flow-row lg:grid-rows-2 md:grid-rows-1 gap-4">
             {#each clients as client}
                 <div
-                        class="block bg-white/20 text-white p-6 border-4 rounded-2xl rounded-base shadow-xs"
+                        class="block  bg-background text-white p-6 border-4 rounded-2xl rounded-base shadow-xs"
                 >
                     <div
                             class="h-auto block max-w-md p-6 rounded-base shadow-xs items-center justify-center"

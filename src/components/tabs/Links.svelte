@@ -40,14 +40,14 @@
                         target={link.target}
                         class="justify-between items-center inline-flex mt-5 relative {position()} inline-flex"
                 >
-                    <div class="border-2 p-2 justify-between items-center inline-flex rounded-2xl">
+                    <div class="bg-[#1e2124]/80 shadow-2xl shadow-black border-2 p-2 justify-between items-center inline-flex rounded-2xl">
                         {#if link.icon.startsWith("link:")}
                             <img width="25" height="25" alt="ICON" src="{icon(link.icon)}"/>
                         {:else}
                             <svelte:component this={icon(link.icon)}/>
                         {/if}
 
-                        <p class="ml-3 text-right flex">{link.name}</p>
+                        <p class="ml-3 text-right flex text-shadow-md text-[#7289da] text-shadow-zinc-600">{link.name}</p>
                     </div>
                 </a>
 

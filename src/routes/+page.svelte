@@ -20,22 +20,24 @@
 </script>
 
 <div>
-    <nav class="relative animate-glow after:pointer-events-none p-2 after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10">
+    <nav class="relative animate-glowe p-2 shadow-none rounded-b-[100px] bg-linear-to-t from-zinc-300 to-gray-500">
         <div>
             <div class="space-y-1 px-5 pt-2 pb-3 mt-2 rounded-2xl">
                 {#each navBar as navItem}
                     <button
                             data-state={navItem.name === navTab ? "active" : "inactive"}
                             class="{navItem.name === navTab
-              ? 'bg-white/50 text-zinc-800'
-              : 'bg-transparent'} md:mb-10 w-15 h-10 cursor-pointer ring-offset-background focus-visible:ring-ring inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium capitalize transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+              ? ' bg-fuchsia-500/20'
+              : 'bg-fuchsia-200/60'}  ml-5 md:mb-10 w-15 h-10 cursor-pointer ring-offset-background focus-visible:ring-ring inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium capitalize transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
                             on:click={() => (navTab = navItem.name)}
                     >
                         <img src={navItem.icon} alt="icon"/>
                     </button>
                 {/each}
             </div>
+
         </div>
+
     </nav>
 
     {#if navTab === "home"}

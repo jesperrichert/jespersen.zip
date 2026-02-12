@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" afterDir="false" />
+    <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="fixed css stuff and">
+      <change afterPath="$PROJECT_DIR$/src/routes/pages/[page]/pico.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Home.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tabs/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Links.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/data/Fetcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/Fetcher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,8 @@
       <workItem from="1769979750620" duration="4347000" />
       <workItem from="1770733799953" duration="24750000" />
       <workItem from="1770816852691" duration="22085000" />
-      <workItem from="1770845668567" duration="400000" />
+      <workItem from="1770845668567" duration="419000" />
+      <workItem from="1770908465377" duration="11720000" />
     </task>
     <task id="LOCAL-00001" summary="initialize Svelte project with basic configuration and structure">
       <option name="closed" value="true" />
@@ -220,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770759078767</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added some page stuff for md pages.">
+      <option name="closed" value="true" />
+      <created>1770846074507</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770846074507</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +261,8 @@
     <MESSAGE value="updates for ui/ux... (ToDo: mobile)" />
     <MESSAGE value="Fixed some styles. removed contact form." />
     <MESSAGE value="Updated pages and fixed some ui stuff." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated pages and fixed some ui stuff." />
+    <MESSAGE value="added some page stuff for md pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="added some page stuff for md pages." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
