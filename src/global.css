@@ -111,19 +111,10 @@
     --color-sidebar-ring: var(--sidebar-ring);
 }
 
-@layer base {
-    * {
-        color: #c1c3c6;
-        @apply border-border outline-ring/50;
-    }
-
-    body {
-        @apply bg-background text-foreground;
-    }
-}
-
 body {
     cursor: url("https://cdn.discordapp.com/emojis/1235983485697527859.webp?size=128&animated=true"), default;
     opacity: 1;
-    background: repeating-linear-gradient(-45deg, #36393d, #36393d 18.5px, #36393d 18.5px, #424549 92.5px) no-repeat fixed;
+
+    background: repeating-linear-gradient(-45deg, #36393d 50%, #424549 100%);
+    background-size: 100px 100px;
 }

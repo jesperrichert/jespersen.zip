@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="fixed css stuff and">
-      <change afterPath="$PROJECT_DIR$/src/routes/pages/[page]/pico.min.css" afterDir="false" />
+    <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Home.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Links.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/Fetcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/Fetcher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +99,8 @@
       <workItem from="1770816852691" duration="22085000" />
       <workItem from="1770845668567" duration="419000" />
       <workItem from="1770908465377" duration="11720000" />
+      <workItem from="1770920992741" duration="212000" />
+      <workItem from="1771104175573" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="initialize Svelte project with basic configuration and structure">
       <option name="closed" value="true" />
@@ -229,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770846074507</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixed css stuff and impoved mobile.">
+      <option name="closed" value="true" />
+      <created>1770921170269</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1770921170269</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +263,8 @@
     <MESSAGE value="Fixed some styles. removed contact form." />
     <MESSAGE value="Updated pages and fixed some ui stuff." />
     <MESSAGE value="added some page stuff for md pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="added some page stuff for md pages." />
+    <MESSAGE value="fixed css stuff and impoved mobile." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed css stuff and impoved mobile." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
