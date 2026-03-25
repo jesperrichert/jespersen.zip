@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Home.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" afterDir="false" />
-    </list>
+    <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +98,7 @@
       <workItem from="1770908465377" duration="11720000" />
       <workItem from="1770920992741" duration="212000" />
       <workItem from="1771104175573" duration="992000" />
-      <workItem from="1774477241551" duration="3900000" />
+      <workItem from="1774477241551" duration="3949000" />
     </task>
     <task id="LOCAL-00001" summary="initialize Svelte project with basic configuration and structure">
       <option name="closed" value="true" />
@@ -249,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774479305369</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixed remote pages.">
+      <option name="closed" value="true" />
+      <created>1774481165173</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1774481165173</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +288,8 @@
     <MESSAGE value="fixed css stuff and impoved mobile." />
     <MESSAGE value="fixed scrollbar css." />
     <MESSAGE value="updated to jespersen.zip." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated to jespersen.zip." />
+    <MESSAGE value="fixed remote pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed remote pages." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
