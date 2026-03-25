@@ -1,13 +1,13 @@
 [
   {
     "name": "GitHub",
-    "link": "https://github.com/xyzjesper",
+    "link": "https://github.com/jesperrichert",
     "icon": "github",
     "target": "_blank"
   },
   {
     "name": "Twitter/X",
-    "link": "https://x.com/xyzjesper",
+    "link": "https://x.com/jesperrichert",
     "icon": "twitter",
     "target": "_blank"
   },
@@ -18,38 +18,32 @@
     "target": "_blank"
   },
   {
-    "name": "Discord - xyz",
-    "link": "https://discord.gg/PHJnYbz57v",
-    "icon": "link:https://github.com/xyzspace-dev.png",
-    "target": "_blank"
-  },
-  {
     "name": "Modrinth",
-    "link": "https://modrinth.com/user/xyzjesper",
+    "link": "https://modrinth.com/user/jespersen",
     "icon": "modrinth",
     "target": "_blank"
   },
   {
     "name": "Youtube",
-    "link": "https://www.youtube.com/@xyzjesper",
+    "link": "https://www.youtube.com/@jespersen.mp4",
     "icon": "youtube",
     "target": "_blank"
   },
   {
     "name": "Twitch",
-    "link": "https://twitch.tv/xyzjesper",
+    "link": "https://twitch.tv/jespersentv",
     "icon": "twitch",
     "target": "_blank"
   },
   {
     "name": "Matrix",
-    "link": "https://matrix.to/#/@xyzjesper:matrix.org",
+    "link": "https://matrix.to/#/@jespersen.txt:matrix.org",
     "icon": "matrix",
     "target": "_blank"
   },
   {
     "name": "Email",
-    "link": "mailto:hey@xyzjesper.dev",
+    "link": "mailto:hey@jespersen.zip",
     "icon": "mail",
     "target": "_blank"
   }
