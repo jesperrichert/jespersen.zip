@@ -8,7 +8,7 @@
     let clients: Teams;
     onMount(async () => {
         clients = await Fetcher.fetchJSONFromSource<Teams>(
-            "https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/general/clients.json",
+            "https://raw.githubusercontent.com/jesperrichert/jespersen.zip/refs/heads/dataSpace/data/general/clients.json",
             {},
         );
     });
@@ -16,7 +16,7 @@
     let teams: Clients;
     onMount(async () => {
         teams = await Fetcher.fetchJSONFromSource<Clients>(
-            "https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/general/teams.json",
+            "https://raw.githubusercontent.com/jesperrichert/jespersen.zip/refs/heads/dataSpace/data/general/teams.json",
             {},
         );
     });

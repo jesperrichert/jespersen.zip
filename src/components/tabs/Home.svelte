@@ -2,12 +2,12 @@
   export let { openTab } = {};
 
   const links = {
-    github: "https://github.com/xyzjesper",
-    repositories: "https://github.com/xyzjesper?tab=repositories",
-    teams: "https://github.com/xyzjesper#-projekte--vorschau",
-    techStack: "https://github.com/xyzjesper#tech-stack",
+    github: "https://github.com/jesperrichert",
+    repositories: "https://github.com/jesperrichert?tab=repositories",
+    teams: "https://github.com/jesperrichert#-projekte--vorschau",
+    techStack: "https://github.com/jesperrichert#tech-stack",
     discord: "https://discord.gg/PHJnYbz57v",
-    email: "mailto:hey@xyzjesper.dev",
+    email: "mailto:hey@jespersen.zip",
   };
 
   function handleEmailClick(e: MouseEvent) {
@@ -31,9 +31,10 @@
     </p>
 
     <p class="leading-relaxed">
-      Welcome! I work on various things in Minecraft, Discord, and also software
-      development. I'm a German Full Stack Developer and speak several
-      languages. I develop software for everyone.
+      Nice to meet you. I'm Jesper aka Jespersen. 
+      Working as a Fullstack Developer. And freelancer. Lets talk over 
+      <a class="text-[#23c08b] font-bold" href="https://matrix.to/#/@jespersen.txt:matrix.org">Matrix</a> or 
+      <a class="text-[#7289da] font-bold" href="https://discord.com/users/850470027026759690">Discord</a>
     </p>
 
     <p class="leading-relaxed mt-3">

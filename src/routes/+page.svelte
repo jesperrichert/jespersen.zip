@@ -13,7 +13,7 @@
         console.log("[onMount] Loaded NavBar, Tabs")
         navTab = window.location.href.split("?tab=")[1] ? window.location.href.split("?tab=")[1] : "home";
         navBar = await Fetcher.fetchJSONFromSource<NavBar>(
-            "https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/general/navbar.json",
+            "https://raw.githubusercontent.com/jesperrichert/jespersen.zip/refs/heads/dataSpace/data/general/navbar.json",
             {},
         );
     });

@@ -9,7 +9,7 @@
     let links: LinkMenu;
     onMount(async () => {
         links = await Fetcher.fetchJSONFromSource<LinkMenu>(
-            "https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/general/links.json",
+            "https://raw.githubusercontent.com/jesperrichert/jespersen.zip/refs/heads/dataSpace/data/general/links.json",
             {},
         );
     });

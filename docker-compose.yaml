@@ -1,6 +1,6 @@
 services:
   app:
-    image: ghcr.io/xyzjesper/xyzjesper.dev:latest
+    image: ghcr.io/jespersen/jespersen.zip:latest
     ports:
       - 4173:4173
       - 43334:4173

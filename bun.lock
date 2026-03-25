@@ -1,8 +1,9 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "xyzjesper.dev",
+      "name": "jespersen.zip",
       "dependencies": {
         "@sveltejs/adapter-node": "^5.2.12",
         "@tailwindcss/vite": "^4.1.8",

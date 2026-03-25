@@ -7,13 +7,13 @@
     let page: string;
     onMount(async () => {
         let pageData = await Fetcher.fetchStringFromSource(
-            `https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.mdx`,
+            `https://raw.githubusercontent.com/jespersen/jespersen.zip/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.mdx`,
             {},
         )
 
         if (!pageData) {
             pageData = await Fetcher.fetchStringFromSource(
-                `https://raw.githubusercontent.com/xyzjesper/xyzjesper.dev/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.html`,
+                `https://raw.githubusercontent.com/jespersen/jespersen.zip/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.html`,
                 {},
             )
             page = pageData

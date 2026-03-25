@@ -7,7 +7,7 @@
     let github = {};
 
     async function getPinned() {
-        const callback = await fetch("https://pinned.berrysauce.dev/get/xyzjesper");
+        const callback = await fetch("https://pinned.berrysauce.dev/get/jesperrichert");
         const data = await callback.json();
         github.pinned = data;
     }
