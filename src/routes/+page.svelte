@@ -20,7 +20,7 @@
 </script>
 
 <div>
-    <nav class="relative animate-glowe p-2 shadow-none rounded-b-[100px] bg-linear-to-t from-zinc-300 to-gray-500">
+    <nav class="relative  animate-glowe p-2 shadow-none rounded-b-[100px] bg-linear-to-t from-zinc-300 to-gray-500">
         <div>
             <div class="space-y-1 px-5 pt-2 pb-3 mt-2 rounded-2xl">
                 {#each navBar as navItem}
@@ -42,7 +42,7 @@
 
     {#if navTab === "home"}
         <section>
-            <Home openTab={(tab: string) => (navTab = tab)}></Home>
+            <Home></Home>
         </section>
     {:else if navTab === "projects"}
         <section>

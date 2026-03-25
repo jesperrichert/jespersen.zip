@@ -1,6 +1,4 @@
 <script lang="ts">
-  export let { openTab } = {};
-
   const links = {
     github: "https://github.com/jesperrichert",
     repositories: "https://github.com/jesperrichert?tab=repositories",
@@ -37,6 +35,14 @@
       <a class="text-[#7289da] font-bold" href="https://discord.com/users/850470027026759690">Discord</a>
     </p>
 
+    <span>
+     I’m working on a few software projects, some Minecraft stuff and a bit of everything else... :D
+      You can do anything you can imagine!
+    </span>
+    <p>
+      I am currently preparing for my university entrance qualification (2026) and after it, doing an apprenticeship at <a class="text-red-800" href="https://dataport.de">@dataport AöR</a>
+    </p>
+    
     <p class="leading-relaxed mt-3">
       Read more about my projects on
       <a class="underline text-green-400 hover:text-green-300 transition-colors" href={links.repositories}>GitHub</a>, check out

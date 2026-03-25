@@ -7,24 +7,29 @@
     let page: string;
     onMount(async () => {
         let pageData = await Fetcher.fetchStringFromSource(
-            `https://raw.githubusercontent.com/jespersen/jespersen.zip/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.mdx`,
+            `https://raw.githubusercontent.com/jesperrichert/jespersen.zip/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.mdx`,
             {},
         )
 
         if (!pageData) {
             pageData = await Fetcher.fetchStringFromSource(
-                `https://raw.githubusercontent.com/jespersen/jespersen.zip/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.html`,
+                `https://raw.githubusercontent.com/jesperrichert/jespersen.zip/refs/heads/dataSpace/data/pages/${window.location.href.split("/").pop()}.html`,
                 {},
             )
             page = pageData
         } else {
             page = await marked(pageData)
         }
+        
+        if (!page) {
+            page = "<h1>Failed to fetch page data from remote endpoint.</h1>"
+        }
+        
     })
 </script>
 
 <div data-theme="dark" class="h-screen flex justify-between p-5">
-    <div class="container text-shadow-stone-800">
+    <div class="container text-shadow-stone-800 font-mono">
         {@html page}
     </div>
 </div>

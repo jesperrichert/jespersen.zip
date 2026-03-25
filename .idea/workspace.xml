@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/tabs/Home.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Home.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Links.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +103,7 @@
       <workItem from="1770908465377" duration="11720000" />
       <workItem from="1770920992741" duration="212000" />
       <workItem from="1771104175573" duration="992000" />
-      <workItem from="1774477241551" duration="2029000" />
+      <workItem from="1774477241551" duration="3900000" />
     </task>
     <task id="LOCAL-00001" summary="initialize Svelte project with basic configuration and structure">
       <option name="closed" value="true" />
@@ -250,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771105144041</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updated to jespersen.zip.">
+      <option name="closed" value="true" />
+      <created>1774479305368</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1774479305369</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +284,8 @@
     <MESSAGE value="added some page stuff for md pages." />
     <MESSAGE value="fixed css stuff and impoved mobile." />
     <MESSAGE value="fixed scrollbar css." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed scrollbar css." />
+    <MESSAGE value="updated to jespersen.zip." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to jespersen.zip." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
