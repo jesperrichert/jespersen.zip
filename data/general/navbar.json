@@ -1,22 +1,22 @@
 [
   {
     "icon": "https://cdn.jespersen.zip/u/QY2ESu.png",
-    "name": "home",
+    "name": "links",
     "link": ""
   },
   {
     "icon": "https://cdn.jespersen.zip/u/O9uTCU.png",
-    "name": "projects",
+    "name": "about",
     "link": ""
   },
   {
     "icon": "https://cdn.jespersen.zip/u/00jq2i.png",
-    "name": "work",
+    "name": "projects",
     "link": ""
   },
   {
     "icon": "https://cdn.jespersen.zip/u/HcP57Q.png",
-    "name": "links",
+    "name": "linktree",
     "link": ""
   }
 ]
