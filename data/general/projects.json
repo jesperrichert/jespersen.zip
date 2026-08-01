@@ -1,0 +1,20 @@
+[
+  {
+    "name": "DisBot",
+    "url": [
+      {
+        "name": "Website",
+        "link": "https://disbot.app"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/DisBotDevelopment/DisBot-Bot"
+      }
+    ],
+    "description": "Open source Discord Bot for everyone and free to use. Multi Purpose Discord Bot.",
+    "languages": ["Typescript", "C#"],
+    "team": "DisBotDevelopment",
+    "teamIcon": "https://github.com/DisBotDevelopment.png",
+    "archived": false,
+  }
+]
