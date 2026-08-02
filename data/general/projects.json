@@ -9,6 +9,11 @@
         "link": "https://disbot.app"
       },
       {
+        "name": "Discord",
+        "icon": "https://cdn.jespersen.zip/u/discord-logo-discord-icon-transparent-free-png.webp",
+        "link": "https://discord.gg/RrVhs6kfA9"
+      },
+      {
         "name": "GitHub",
         "link": "https://github.com/DisBotDevelopment/DisBot-Bot"
       }
