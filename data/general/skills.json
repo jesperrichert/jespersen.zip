@@ -1,7 +1,192 @@
 [
   {
-    "name": "Typescript",
+    "name": "C#",
+    "icon": "https://skillicons.dev/icons?i=cs",
+    "link": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://skillicons.dev/icons?i=js",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "name": "TypeScript",
     "icon": "https://skillicons.dev/icons?i=ts",
     "link": "https://www.typescriptlang.org"
+  },
+  {
+    "name": "Kotlin",
+    "icon": "https://skillicons.dev/icons?i=kotlin",
+    "link": "https://kotlinlang.org"
+  },
+  {
+    "name": "Rust",
+    "icon": "https://skillicons.dev/icons?i=rust",
+    "link": "https://www.rust-lang.org"
+  },
+  {
+    "name": "Go",
+    "icon": "https://skillicons.dev/icons?i=go",
+    "link": "https://go.dev"
+  },
+  {
+    "name": "Python",
+    "icon": "https://skillicons.dev/icons?i=py",
+    "link": "https://www.python.org"
+  },
+  {
+    "name": "Java",
+    "icon": "https://skillicons.dev/icons?i=java",
+    "link": "https://www.java.com"
+  },
+  {
+    "name": ".NET",
+    "icon": "https://skillicons.dev/icons?i=dotnet",
+    "link": "https://dotnet.microsoft.com"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "https://skillicons.dev/icons?i=postgres",
+    "link": "https://www.postgresql.org"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "https://skillicons.dev/icons?i=mongodb",
+    "link": "https://www.mongodb.com"
+  },
+  {
+    "name": "MySQL",
+    "icon": "https://skillicons.dev/icons?i=mysql",
+    "link": "https://www.mysql.com"
+  },
+  {
+    "name": "Redis",
+    "icon": "https://skillicons.dev/icons?i=redis",
+    "link": "https://redis.io"
+  },
+  {
+    "name": "HTML5",
+    "icon": "https://skillicons.dev/icons?i=html",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  {
+    "name": "CSS",
+    "icon": "https://skillicons.dev/icons?i=css",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  {
+    "name": "Bash",
+    "icon": "https://skillicons.dev/icons?i=bash",
+    "link": "https://www.gnu.org/software/bash/"
+  },
+  {
+    "name": "React",
+    "icon": "https://skillicons.dev/icons?i=react",
+    "link": "https://react.dev"
+  },
+  {
+    "name": "Vue.js",
+    "icon": "https://skillicons.dev/icons?i=vue",
+    "link": "https://vuejs.org"
+  },
+  {
+    "name": "Svelte",
+    "icon": "https://skillicons.dev/icons?i=svelte",
+    "link": "https://svelte.dev"
+  },
+  {
+    "name": "Tauri",
+    "icon": "https://skillicons.dev/icons?i=tauri",
+    "link": "https://tauri.app"
+  },
+  {
+    "name": "WebAssembly",
+    "icon": "https://skillicons.dev/icons?i=wasm",
+    "link": "https://webassembly.org"
+  },
+  {
+    "name": "Next.js",
+    "icon": "https://skillicons.dev/icons?i=nextjs",
+    "link": "https://nextjs.org"
+  },
+  {
+    "name": "Ktor",
+    "icon": "https://skillicons.dev/icons?i=ktor",
+    "link": "https://ktor.io"
+  },
+  {
+    "name": "Laravel",
+    "icon": "https://skillicons.dev/icons?i=laravel",
+    "link": "https://laravel.com"
+  },
+  {
+    "name": "NestJS",
+    "icon": "https://skillicons.dev/icons?i=nestjs",
+    "link": "https://nestjs.com"
+  },
+  {
+    "name": "Tailwind CSS",
+    "icon": "https://skillicons.dev/icons?i=tailwind",
+    "link": "https://tailwindcss.com"
+  },
+  {
+    "name": "Discord",
+    "icon": "https://skillicons.dev/icons?i=discord",
+    "link": "https://discord.com"
+  },
+  {
+    "name": "Gradle",
+    "icon": "https://skillicons.dev/icons?i=gradle",
+    "link": "https://gradle.org"
+  },
+  {
+    "name": "Docker",
+    "icon": "https://skillicons.dev/icons?i=docker",
+    "link": "https://www.docker.com"
+  },
+  {
+    "name": "Rider",
+    "icon": "https://skillicons.dev/icons?i=rider",
+    "link": "https://www.jetbrains.com/rider/"
+  },
+  {
+    "name": "IntelliJ IDEA",
+    "icon": "https://skillicons.dev/icons?i=idea",
+    "link": "https://www.jetbrains.com/idea/"
+  },
+  {
+    "name": "GoLand",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/goland/goland-original.svg",
+    "link": "https://www.jetbrains.com/go/"
+  },
+  {
+    "name": "WebStorm",
+    "icon": "https://skillicons.dev/icons?i=webstorm",
+    "link": "https://www.jetbrains.com/webstorm/"
+  },
+  {
+    "name": "VS Code",
+    "icon": "https://skillicons.dev/icons?i=vscode",
+    "link": "https://code.visualstudio.com"
+  },
+  {
+    "name": "DataGrip",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg",
+    "link": "https://www.jetbrains.com/datagrip/"
+  },
+  {
+    "name": "Ansible",
+    "icon": "https://skillicons.dev/icons?i=ansible",
+    "link": "https://www.ansible.com"
+  },
+  {
+    "name": "Linux",
+    "icon": "https://skillicons.dev/icons?i=linux",
+    "link": "https://www.linux.org"
+  },
+  {
+    "name": "Git",
+    "icon": "https://skillicons.dev/icons?i=git",
+    "link": "https://git-scm.com"
   }
 ]
