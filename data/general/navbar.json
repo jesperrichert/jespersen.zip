@@ -5,6 +5,11 @@
     "link": "/about"
   },
   {
+    "icon": "https://cdn.jespersen.zip/u/zap.png",
+    "name": "skills",
+    "link": "/skills"
+  },
+  {
     "icon": "https://cdn.jespersen.zip/u/00jq2i.png",
     "name": "projects",
     "link": "/projects"
