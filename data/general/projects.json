@@ -15,7 +15,7 @@
     ],
     "description": "Open source Discord Bot for everyone and free to use. Multi Purpose Discord Bot.",
     "languages": ["ts", "cs"],
-    "team": "DisBotDevelopment",
+    "team": "DisBot",
     "teamIcon": "https://github.com/DisBotDevelopment.png",
     "archived": false
   }
