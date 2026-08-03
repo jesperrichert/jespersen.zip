@@ -1,8 +1,7 @@
-FROM oven/bun:slim
+FROM nginx:alpine-slim
 
-COPY . .
+COPY ./dist/ /usr/share/nginx/html/
+COPY ./dist/entry.html /usr/share/nginx/html/index.html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-RUN bun install
-RUN bun run build
-
-CMD ["bun", "run", "preview", "--host"]
+CMD ["nginx", "-g", "daemon off;"]

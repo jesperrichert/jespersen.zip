@@ -1,0 +1,9 @@
+services:
+  app-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jespersen-zip-app-dev
+    ports:
+      - "2342:80"
+    tty: true
