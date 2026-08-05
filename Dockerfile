@@ -1,6 +1,12 @@
-FROM nginx:alpine-slim
+FROM oven/bun:latest as builder
 
-COPY ./dist/ /usr/share/nginx/html/
+COPY . . 
+RUN bun install
+RUN bun run build
+
+FROM nginx:alpine-slim as release
+
+COPY --from=builder ./dist/ /usr/share/nginx/html/
 COPY ./dist/entry.html /usr/share/nginx/html/index.html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
