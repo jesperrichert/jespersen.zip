@@ -6,7 +6,7 @@ RUN bun run build
 
 FROM nginx:alpine-slim as release
 
-COPY --from=builder ./dist/entry.html /usr/share/nginx/html/index.html
+# COPY --from=builder ./dist/entry.html /usr/share/nginx/html/index.html
 COPY --from=builder ./dist/ /usr/share/nginx/html/
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
