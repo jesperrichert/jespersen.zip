@@ -1,10 +1,10 @@
-FROM oven/bun:latest as builder
+FROM oven/bun:latest AS builder
 
 COPY . . 
 RUN bun install
 RUN bun run build
 
-FROM nginx:alpine-slim as release
+FROM nginx:alpine-slim AS release
 
 # COPY --from=builder ./dist/entry.html /usr/share/nginx/html/index.html
 COPY --from=builder ./dist/ /usr/share/nginx/html/
