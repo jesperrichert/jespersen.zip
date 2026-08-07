@@ -5,43 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebfbcc26-92e2-4750-bce6-45fa624932b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Home.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Links.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/Projects.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabs/TeamsClients.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/button-group/button-group-separator.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/button-group/button-group-text.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/button-group/button-group.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/button-group/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/button/button.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/button/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/card/card-action.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/card/card-content.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/card/card-description.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/card/card-footer.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/card/card-header.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/card/card-title.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/card/card.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/card/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/separator/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/ui/separator/separator.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/Fetcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/Fetcher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/pages/[page]/+page.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/pages/[page]/pico.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/xyzjesper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jespersen.zip.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +113,7 @@
       <workItem from="1774643063762" duration="3000" />
       <workItem from="1774643125428" duration="2029000" />
       <workItem from="1785461212500" duration="105000" />
-      <workItem from="1785783667426" duration="823000" />
+      <workItem from="1785783667426" duration="923000" />
     </task>
     <task id="LOCAL-00001" summary="initialize Svelte project with basic configuration and structure">
       <option name="closed" value="true" />
@@ -310,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774481359843</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="redesigned website">
+      <option name="closed" value="true" />
+      <created>1785784575233</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1785784575234</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +327,8 @@
     <MESSAGE value="updated to jespersen.zip." />
     <MESSAGE value="fixed remote pages." />
     <MESSAGE value="fixed gh release" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed gh release" />
+    <MESSAGE value="redesigned website" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesigned website" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
