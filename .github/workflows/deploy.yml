@@ -43,5 +43,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/jesperrichert/jespersen.zip:${{ github.run_number }}
-            ghcr.io/jesperrichert/jespersen.zip:latest
+            ghcr.io/jesperrichert/jespersen.web:${{ github.run_number }}
+            ghcr.io/jesperrichert/jespersen.web:latest
